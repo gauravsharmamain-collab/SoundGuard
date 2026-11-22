@@ -90,9 +90,9 @@ Connect the **ICS-43434** digital MEMS microphone to the **ESP32-WROOM-32** usin
 | :--- | :--- | :--- |
 | **VDD** | **3V3** | 3.3V Power Supply |
 | **GND** | **GND** | Ground |
-| **SD / DOUT** | **GPIO 33** | Serial Data Input |
-| **SCK / BCLK** | **GPIO 26** | Bit Clock |
-| **WS / LRCLK** | **GPIO 32** | Word Select Clock |
+| **SD / DOUT** | **GPIO  23** | Serial Data Input |
+| **SCK / BCLK** | **GPIO 22** | Bit Clock |
+| **WS / LRCLK** | **GPIO 21** | Word Select Clock |
 | **L/R** | **GND** | Left Channel (Mono) |
 
 Open [`hardware/esp32_code/soundguard.ino`](file:///c:/Users/DELL/OneDrive/Documents/OS/SoundGuard/hardware/esp32_code/soundguard.ino) in Arduino IDE, update your Wi-Fi credentials and laptop IP address (`172.16.51.84`), and flash your board.
