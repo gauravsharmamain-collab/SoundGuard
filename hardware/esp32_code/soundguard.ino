@@ -31,10 +31,10 @@
 
 // ---------------- USER CONFIGURATION ----------------
 
-const char *WIFI_SSID = "EACCESS";
-const char *WIFI_PASSWORD = "hostelnet";
+const char *WIFI_SSID = "Your_wifi_name";
+const char *WIFI_PASSWORD = "Your_wifi_password";
 
-const char *SERVER_IP = "172.16.51.84";
+const char *SERVER_IP = "IP";
 const uint16_t SERVER_PORT = 5000;
 
 const char *DEVICE_ID = "soundguard_01";
